@@ -2,7 +2,7 @@
 
 Register and renew domains with ResellerClub
 
-Official **domain registrar** for [PeltyCMS](https://github.com/MythicalLTD/PeltyCMS) — identifier `registrar-resellerclub`.
+Official domain registrar for [PeltyCMS](https://github.com/MythicalLTD/PeltyCMS).
 
 ## Why this addon
 
@@ -18,25 +18,21 @@ Resellers who sell domains next to hosting and need automated register / renew.
 
 ## How it works
 
-1. Install **ResellerClub** from the [Mythical marketplace](https://market.mythicalsystems.org/marketplace/product/registrar-resellerclub) (or Pelty Admin → Addons → Marketplace).
-2. Open Pelty Admin and enter your ResellerClub credentials in the addon settings.
-3. Attach it to the products / forms / login flows you care about.
-4. New orders and sign-ins use ResellerClub automatically.
+1. Install **ResellerClub** from the [Mythical marketplace](https://market.mythicalsystems.org/marketplace/product/registrar-resellerclub) inside Pelty Admin → Addons.
+2. Open Pelty Admin → Domains, connect ResellerClub, sync TLDs, and sell domains like any other product.
+3. Customers hit checkout / login / order flow as usual — ResellerClub runs in the background.
 
 ## Requirements
 
-- A running PeltyCMS panel with WASM addons enabled
-- Valid ResellerClub API / OAuth / panel credentials (depending on the integration)
-- Outbound HTTPS from the panel to ResellerClub
+- PeltyCMS with WASM addons enabled
+- Working ResellerClub credentials
+- Outbound HTTPS from your panel
 
 ## Get it
 
-[ResellerClub on Mythical Marketplace](https://market.mythicalsystems.org/marketplace/product/registrar-resellerclub)
-
-Free official build. Source for this package lives in this repository.
+**[ResellerClub on Mythical Marketplace](https://market.mythicalsystems.org/marketplace/product/registrar-resellerclub)**
 
 ## Support
 
-- Marketplace product page: https://market.mythicalsystems.org/marketplace/product/registrar-resellerclub
-- PeltyCMS core: https://github.com/MythicalLTD/PeltyCMS
-- Issues for this addon: use this repo’s Issues tab
+Bugs and questions for this addon → Issues on this repo.  
+PeltyCMS core → https://github.com/MythicalLTD/PeltyCMS
