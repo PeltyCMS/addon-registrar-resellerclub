@@ -319,11 +319,7 @@ impl RegistrarModule for ResellerClub {
         })
     }
 
-    fn set_lock<'a>(
-        &'a self,
-        domain: &'a str,
-        locked: bool,
-    ) -> BoxFuture<'a, RegistrarResult<()>> {
+    fn set_lock<'a>(&'a self, domain: &'a str, locked: bool) -> BoxFuture<'a, RegistrarResult<()>> {
         Box::pin(async move {
             let id = self.rc_order_id(domain).await?;
             let path = if locked {
